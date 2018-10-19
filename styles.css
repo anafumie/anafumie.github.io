@@ -1,0 +1,14 @@
+
+body {
+  background-color: #ddd;
+  font-family: "segoe ui";
+}
+
+footer
+.image{
+  float: left;
+}
+.contato{
+  float: left;
+  width: 400px;
+}
