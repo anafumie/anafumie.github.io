@@ -1,14 +1,36 @@
 
 body {
-  background-color: #ddd;
   font-family: "segoe ui";
 }
 
-footer
-.image{
-  float: left;
+.forma {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: .2fr 1.5fr .2fr;
+  margin: auto;
 }
-.contato{
-  float: left;
-  width: 400px;
+
+header {
+  grid-row: 1;
+  grid-column: 1 / 4;
+  background-color: #ddd;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+nav {
+  grid-row: 2;
+  grid-column: 1 / 4;
+  background-color: #d3d3d3;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}
+
+
+footer{
+  grid-row: 3;
+  grid-column: 1 / 4;
+  background-color: #ddd;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
 }
