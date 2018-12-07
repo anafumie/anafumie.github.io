@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  background-color: rgb(69,162,154);
+  font-family: 'Abel', sans-serif;
+}
+
+div.menu {
+  overflow: hidden;
+  background-color: rgb(103,55,97);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+div.menu ul {
+  list-style: none;
+  display: flex;
+  -webkit-padding-start: 0px;
+}
+
+div.menu ul li{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.menu ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+div.menu img{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: black;
+}
